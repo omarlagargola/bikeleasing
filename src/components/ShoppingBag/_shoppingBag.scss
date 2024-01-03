@@ -1,0 +1,12 @@
+.header__shopping-bag-wrapper {
+  width: 400px;
+  display: inline;
+  height: 30px;
+  position: relative;
+}
+.shopping-bag {
+  position: absolute;
+  inset-block-end: 0;
+  inset-inline-end: 35px;
+  inset-block-start: 20px;
+}

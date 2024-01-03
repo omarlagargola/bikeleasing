@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+@import 'styles/base';
+@import 'styles/variables';
+@import './components/Header/header';
+@import './components/ShoppingBag/shoppingBag';
+@import './components/BikesList/bikesList';
+@import './components/SearchBar/searchBar';
+@import './components/BikeItem/bikeItem';
+@import './components/Footer/footer';

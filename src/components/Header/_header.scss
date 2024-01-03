@@ -1,0 +1,17 @@
+.header {
+  position: fixed;
+  inset-block-start: 0;
+  inset-inline-start: 0;
+  padding: 10px 16px;
+  background: var(--black);
+  color: var(--white);
+  font-size: 18px;
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.header__brand {
+  width: 624px;
+}

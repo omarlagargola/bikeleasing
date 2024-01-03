@@ -1,0 +1,37 @@
+.bike-item {
+  width: 300px;
+}
+.bike-item__name {
+  font-size: 22px;
+  color: var(--black);
+}
+.bike-selection-wrapper {
+  .bike-img {
+    background-repeat: no-repeat;
+    min-height: 180px;
+    background-size: cover;
+  }
+  .bike-price {
+    font-size: 20px;
+    color: var(--black);
+    padding: 15px;
+  }
+  .bike-toggle {
+    cursor: pointer;
+    font-size: 16px;
+    color: var(--white);
+    background-color: var(--gray);
+    padding: 10px;
+    text-align: center;
+  }
+  &.selected {
+    .bike-price {
+      background-color: var(--darkGray);
+      color: var(--white);
+    }
+    .bike-toggle {
+      background: var(--gray);
+      color: var(--lightGray)
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.footer {
+  position: fixed;
+  font-size: 12px;
+  inset-block-end: 0;
+  width: 100%;
+  background-color: var(--white);
+  color: var(--black);
+  padding: 20px 0;
+}
+.footer__text {
+  width: 1000px;
+  margin: auto;
+}
